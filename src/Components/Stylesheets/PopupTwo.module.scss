@@ -1,0 +1,196 @@
+.sectionPadding .flexUse {
+  padding: 0px 10px;
+  background: #f6f6f6;
+  border-radius: 10px;
+  overflow: hidden;
+  height: calc(100vh - 68px);
+  overflow-x: auto;
+  overflow-y: auto;
+  width: 100%;
+
+  &::-webkit-scrollbar {
+    display: none !important;
+  }
+
+  .proofPopup {
+    display: flex;
+
+    .popupUnder {
+      padding: 20px;
+      min-width: 567px;
+
+      .popupHeading {
+        text-align: center;
+        border-bottom: 1px solid #bdbdbd;
+        min-height: 116px;
+        max-height: 100%;
+        color: #424242;
+
+        h3 {
+          font-family: "Alegreya Sans";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 2.15vw;
+        }
+        p {
+          font-family: "IBM Plex Sans";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 17px;
+
+          a {
+            color: #40c1af;
+          }
+        }
+      }
+
+      .popupPoint {
+        padding: 20px 0px;
+        border-bottom: 1px solid #bdbdbd;
+        // margin-bottom: 18px;
+        min-height: 350px;
+        max-height: 100%;
+        color: #424242;
+
+        h5 {
+          font-family: "IBM Plex Sans";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+        }
+        p {
+          text-align: center;
+          font-weight: 500;
+          line-height: 17px;
+          font-size: 16px;
+        }
+        ul {
+          padding-left: 0px;
+          list-style: none;
+
+          li {
+            padding-bottom: 8px;
+            position: relative;
+            padding-left: 32px;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 16px;
+            color: #9f9f9f;
+
+            svg {
+              position: absolute;
+              left: 0px;
+              top: -2px;
+              font-size: 28px;
+              color: #40c1af;
+            }
+          }
+        }
+      }
+
+      .popupImages {
+        h5 {
+          text-align: center;
+          font-weight: 500;
+          font-size: 30px;
+          color: #424242;
+          margin-bottom: 12px;
+        }
+        img {
+          width: 100%;
+          margin-bottom: 12px;
+        }
+      }
+    }
+  }
+}
+
+.flexUse {
+  .mobileFrame {
+    display: flex;
+
+    .popupImages {
+      padding: 30px 20px;
+      min-width: 350px;
+      h5 {
+        text-align: center;
+        font-weight: 500;
+        font-size: 30px;
+        color: #424242;
+        margin-bottom: 12px;
+        font-family: IBM Plex Sans;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin-top: -4%;
+      }
+      img {
+        width: 100%;
+        margin-bottom: 12px;
+      }
+    }
+  }
+}
+
+/*=======================================================
+//////////////RESPONSIVE MEDIA QUERY START///////////////
+=======================================================*/
+
+@media (max-width: 767px) {
+  .flexUse {
+    .proofPopup {
+      .popupUnder {
+        min-width: 100% !important;
+      }
+    }
+  }
+
+  .flexUse {
+    .mobileFrame {
+      .popupImages {
+        min-width: 100%;
+      }
+    }
+  }
+  
+
+    .popupPoint {
+     
+      p {
+        font-size: 14px !important;
+        margin-bottom: 8px !important;
+      }
+}
+
+
+.popupUnder {
+  
+  .popupHeading {
+   padding-bottom: 8px !important;
+
+    h3 {
+     
+      font-size: 16px !important;
+    }
+    p {
+      
+      font-size: 14px !important;
+      line-height: 15px !important;
+
+     
+    }
+  }
+
+  .popupPoint {
+     
+    p {
+      font-size: 14px !important;
+      margin-bottom: 8px !important;
+    }
+}
+
+}
+}

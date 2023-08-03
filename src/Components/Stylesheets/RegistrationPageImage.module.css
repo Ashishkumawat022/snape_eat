@@ -1,0 +1,204 @@
+.registrationPageImageContainer {
+  font-family: "Alegreya Sans";
+  font-style: normal;
+  height: 55vw;
+  width: 42vw;
+  position: relative;
+}
+.registrationPageImagePhone {
+  width: 64%;
+  right: 0;
+  bottom: 10%;
+  z-index: 1;
+  position: absolute;
+}
+
+.registrationPageImageData {
+  font-family: "Alegreya Sans";
+  font-style: normal;
+  position: absolute;
+  top: 0;
+}
+.registrationPageImageData > div {
+  position: absolute;
+  text-align: center;
+  border: 0.1vw solid rgba(207, 207, 207, 0.26);
+  box-shadow: 0.9vw 1.2vw 2.1vw rgba(0, 0, 0, 0.1);
+  border-radius: 1vw;
+  background-color: #ffffff;
+}
+
+.registrationPageImageTitle > h2 {
+  text-align: center;
+  width: 50%;
+  font-weight: 500;
+  line-height: 2.4vw;
+  font-size: 2vw;
+  color: white;
+  margin: 5% 15%;
+}
+.registrationPageImageData {
+  position: absolute;
+  z-index: 1;
+}
+
+.registrationPageImageFirst__icon {
+  width: 50%;
+  top: 11vw;
+  left: 5.5vw;
+  padding: 1.5vw 0px 1vw;
+}
+.registrationPageImageFirst__icon > p {
+  font-size: 1.7vw;
+  line-height: 1.7vw;
+  font-weight: 500;
+  display: block;
+}
+.registrationPageImageFirst__icon > span {
+  font-size: 1.5vw;
+  line-height: 1.5vw;
+  display: block;
+  color: #cfcfcf;
+}
+.registrationPageImageSecond__icon {
+  top: 2.5vw;
+  width: 38%;
+  left: 28vw;
+  padding: 1.8vw 0px;
+  font-size: 1.7vw;
+  line-height: 1.7vw;
+  font-weight: 500;
+}
+
+.registrationPageImageThird__icon {
+  top: 20vw;
+  width: 33%;
+  left: 11vw;
+  padding: 3vw 0px 0.5vw;
+  font-size: 1.5vw;
+  line-height: 1.5vw;
+
+  color: #cfcfcf;
+}
+.registrationPageImageFourth__icon {
+  top: 30vw;
+  left: 10.5vw;
+  width: 43%;
+  padding: 1.5vw 0px 1.5vw;
+  font-size: 1.7vw;
+  line-height: 1.7vw;
+  font-weight: 500;
+}
+.registrationPageImageFifth__icon {
+  top: 12vw;
+  right: -20vw;
+  width: 42%;
+  padding: 2vw 0px;
+  line-height: 1;
+  font-size: 1.7vw;
+  line-height: 1.7vw;
+  font-weight: 500;
+}
+.registrationPageImageSixth__icon {
+  top: 38vw;
+  width: 60%;
+  left: 12vw;
+  padding: 1.4vw 0px 1vw;
+}
+.registrationPageImageSixth__icon > p {
+  font-size: 1.7vw;
+  line-height: 1.7vw;
+  font-weight: 500;
+}
+.registrationPageImageSixth__icon > span {
+  font-size: 1.5vw;
+  line-height: 1.5vw;
+
+  color: #cfcfcf;
+}
+@media only screen and (max-width: 768px) {
+  .registrationPageImageContainer {
+    font-family: "Alegreya Sans";
+    font-style: normal;
+    width: 90vw;
+    height: unset;
+    position: relative;
+    overflow: visible;
+    margin-top: 16px;
+  }
+  .registrationPageImageSixth__icon > p {
+    font-size: 4vw;
+    line-height: 1.9vw;
+    font-weight: 500;
+    padding-top: 8px;
+  }
+  .registrationPageImageFifth__icon > p {
+    font-size: 4vw;
+    line-height: 1.9vw;
+    font-weight: 500;
+    padding-top: 8px;
+  }
+  .registrationPageImageTitle > h2 {
+    width: 35vw;
+    line-height: 5vw;
+    font-size: 5vw;
+    color: white;
+    margin: 5vw 5vw;
+  }
+  .registrationPageImageFirst__icon {
+    width: 25vw;
+    top: 25vw;
+    left: 13vw;
+    font-weight: 500;
+    padding: 3vw 1px;
+    font-size: 3vw;
+  }
+  .registrationPageImageFirst__icon > p {
+    font-size: 3.5vw;
+    line-height: 4vw;
+  }
+  .registrationPageImageFirst__icon > span {
+    font-size: 3vw;
+  }
+  .registrationPageImageSecond__icon {
+    top: 10vw;
+    width: 20vw;
+    font-weight: 500;
+    font-size: 2.5vw;
+    left: 67vw;
+    font-size: 3.5vw;
+    padding: 3vw 0;
+  }
+
+  .registrationPageImageThird__icon {
+    top: 45vw;
+    width: 16vw;
+    font-size: 3vw;
+    left: 25vw;
+    padding: 5vw 0px 2vw;
+  }
+
+  .registrationPageImageFourth__icon {
+    top: 65vw;
+    left: 22.5vw;
+    width: 30vw;
+    padding: 2vw 0px 3vw;
+  }
+  .registrationPageImageFourth__icon > p {
+    font-size: 3.5vw;
+  }
+  .registrationPageImageFifth__icon {
+    top: 90vw;
+    left: 35vw;
+    width: 30vw;
+    padding: 3vw 0px;
+    line-height: 1;
+    font-size: 4vw;
+  }
+  .registrationPageImageSixth__icon {
+    top: 30vw;
+    width: 30vw;
+    left: 61vw;
+    padding: 1vw 0px 1vw;
+  }
+}

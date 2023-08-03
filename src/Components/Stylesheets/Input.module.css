@@ -1,0 +1,60 @@
+.customCheckbox {
+  position: relative;
+  border-radius: 50%;
+}
+
+.customCheckbox > input {
+  opacity: 0;
+}
+
+/**
+ * The box
+ */
+
+.customCheckbox label {
+  position: absolute;
+  cursor: pointer;
+  width: 1.7vw;
+  height: 1.7vw;
+  border-radius: 50%;
+  right: 0;
+  border: 2px solid rgb(192, 192, 192);
+}
+
+/**
+ * The tick
+ */
+.customCheckbox input[type="checkbox"] + label::before {
+}
+.customCheckbox input[type="checkbox"] + label::after {
+  content: "\2713";
+  color: white;
+  opacity: 0;
+  position: absolute;
+  top: 0.1vw;
+  left: 0.4vw;
+  font-weight: 800;
+  font-size: 1vw;
+  /* transform: rotate(45deg); */
+}
+
+.customCheckbox input[type="checkbox"]:checked + label {
+  cursor: pointer;
+  border-style: none;
+  background-color: #40c1af;
+}
+
+.customCheckbox input[type="checkbox"]:checked + label::after {
+  opacity: 1;
+}
+@media only screen and (max-width: 764px) {
+  .customCheckbox label {
+    width: 4vw;
+    height: 4vw;
+    border: 1px solid rgb(192, 192, 192);
+  }
+  .customCheckbox input[type="checkbox"] + label::after {
+    font-size: 2.5vw;
+    left: 0.8vw;
+  }
+}

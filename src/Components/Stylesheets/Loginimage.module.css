@@ -1,0 +1,210 @@
+.loginimage_container {
+  position: relative;
+  width: 28.21vw;
+  height: 56.28vw;
+}
+.phoneIcon {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.phoneIcons__container {
+  height: 100%;
+  position: relative;
+}
+.phoneIcons__container > div {
+  position: absolute;
+  background-color: #ffffff;
+  border: 0.15vw solid rgba(207, 207, 207, 0.26);
+  box-shadow: 0.5vw 1.5vw 2.5vw rgba(0, 0, 0, 0.1);
+  border-radius: 1vw;
+  font-family: "IBM Plex Sans";
+  font-weight: 500;
+}
+.phoneIcon_one {
+  top: 60%;
+  left: -20%;
+  width: 40%;
+  height: 10%;
+  padding: 1.8vw 0.5vw 0.5vw;
+}
+.phoneIcon_one > p {
+  font-size: 1.7vw;
+  line-height: 1.3vw;
+  text-align: center;
+}
+.phoneIcon_one > span {
+  width: 100%;
+  font-size: 1.2vw;
+  color: #cfcfcf;
+  margin-left: 2vw;
+}
+.phoneIcon_two {
+  top: 20%;
+  left: -20%;
+  width: 31%;
+  height: 10%;
+  padding: 0.5vw;
+  text-align: center;
+}
+.phoneIcon_two > p {
+  font-size: 2vw;
+}
+.phoneIcon_two > span {
+  font-size: 1.3vw;
+  line-height: 1.3vw;
+}
+.phoneIcon_three {
+  top: -3.5%;
+  right: -9%;
+  height: 12%;
+  width: 31%;
+  padding: 1.8vw 1vw;
+}
+.phoneIcon_three > p {
+  width: min-content;
+  font-size: 1.45vw;
+  line-height: 1.45vw;
+}
+
+.phoneIcon_four {
+  top: 92%;
+  left: -21%;
+  width: 42%;
+  height: 10%;
+}
+.phoneIcon_four > p {
+  font-size: 1.7vw;
+  line-height: 1.7vw;
+  padding: 1.5vw 0.5vw 0;
+  text-align: center;
+}
+.phoneIcon_five {
+  top: 75%;
+  right: -15%;
+  width: 36%;
+  height: 12.5%;
+}
+.phoneIcon_five > p {
+  font-size: 1.7vw;
+  line-height: 1.7vw;
+  padding: 2vw 1vw 0;
+}
+.phoneIcon_six {
+  top: 45%;
+  right: -25%;
+  height: 11%;
+  width: 57%;
+  padding: 2.2vw 0.5vw 0vw;
+}
+.phoneIcon_six > p {
+  font-size: 1.7vw;
+  line-height: 1.3vw;
+  text-align: center;
+}
+.phoneIcon_six > span {
+  font-size: 1.2vw;
+  color: #cfcfcf;
+  margin-left: 2vw;
+}
+.rectangleIconMobile {
+  display: none;
+}
+@media only screen and (max-width: 764px) {
+  .loginPageMobile__Container {
+    position: relative;
+    margin-top: 10%;
+  }
+  .rectangleIconMobile {
+    display: initial;
+    position: absolute;
+    bottom: -10%;
+    width: 90%;
+    left: -10%;
+  }
+  .loginRight__inner {
+    padding: 0;
+  }
+  .loginimage_container {
+    width: 65vw;
+    height: calc(65vw * 1.8);
+    margin-left: 10%;
+  }
+  .phoneIcons__container > div {
+    border-radius: 2vw;
+  }
+  .phoneIcon_one > p {
+    font-size: 3.5vw;
+    margin-top: 10%;
+  }
+  .phoneIcon_one > span {
+    font-size: 2vw;
+    display: block;
+    text-align: center;
+    margin: 1vw 0 0;
+  }
+  .phoneIcon_two > p {
+    font-size: 3vw;
+    text-align: center;
+    /* margin-top: 8px; */
+  }
+  .phoneIcon_two > span {
+    font-size: 2.5vw;
+    text-align: center;
+    /* padding-bottom: 5px; */
+  }
+  .phoneIcon_three > p {
+    font-size: 3vw;
+    line-height: 3vw;
+    padding: 2.5vw;
+  }
+  .phoneIcon_four > p {
+    font-size: 3vw;
+    line-height: 3vw;
+    padding: 3vw;
+  }
+  .phoneIcon_five > p {
+    font-size: 3.5vw;
+    line-height: 3.5vw;
+    padding: 3.5vw;
+    /* align-items: center; */
+  }
+  .phoneIcon_six > p {
+    font-size: 3.5vw;
+    line-height: 3vw;
+    margin-top: 2vw;
+  }
+  .phoneIcon_six > span {
+    font-size: 2vw;
+    line-height: 1vw;
+    display: block;
+    margin-top: 1vw;
+    text-align: center;
+  }
+  .phoneIcons__container > div > svg {
+    width: 10vw;
+    top: -20%;
+  }
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+  .phoneIcon_two {
+    
+    height: 13%;
+  
+  }
+  .phoneIcon_one {
+   
+    height: 13%;
+    
+  }
+  
+.phoneIcon_six {
+  
+  height: 13%;
+  
+}
+}

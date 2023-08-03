@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.vectorIcon__container {
+  /* width: 100%;
+  max-width: 1400px;
+  position: relative; */
+}
+
+.vectorIcon {
+  width: 100%;
+}
+
+.vectorIcon__logo {
+  width: 35vw;
+  position: absolute;
+  /* max-width: 512px; */
+  left: 3vw;
+  top: 2.5vw;
+}
+.vectorLogo__description {
+  font-family: "Alegreya Sans";
+  font-style: italic;
+  position: absolute;
+  right: 8vw;
+  top: 0vw;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 500;
+  /* width: 65vw; */
+  /* max-width: 800px; */
+}
+.vectorLogo__description1 {
+  font-size: 2.85vw;
+}
+
+.vectorLogo__description2 {
+  font-size: 2.15vw;
+}
+@media only screen and (max-width: 768px) {
+  .vectorIcon {
+    width: 100%;
+  }
+
+  .vectorLogo__description {
+    right: 2vw;
+    top: 1vw;
+  }
+  .vectorLogo__description1 {
+    font-weight: 500;
+    font-size: 3vw;
+    margin-top: 0.2vw;
+  }
+
+  .vectorLogo__description2 {
+    font-weight: 500;
+    font-size: 1.8vw;
+  }
+}

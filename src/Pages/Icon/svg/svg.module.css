@@ -1,0 +1,72 @@
+.headerIcon {
+  width: 100vw;
+  height: 14.57vw;
+}
+.logoIcon {
+  width: 36.57vw;
+  height: 5.2vw;
+  position: absolute;
+  top: 2.5vw;
+  left: 3.2vw;
+}
+.registerLogo {
+  width: 19.3vw;
+  height: 9.5vw;
+  position: absolute;
+  top: 1vw;
+  left: 1.9vw;
+}
+
+.loginImage__Icons {
+  width: 5.2vw;
+  position: absolute;
+  top: -1.5vw;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.showPassword > path {
+  stroke: #40c1af;
+}
+.documentPopup__icon {
+  width: 2.1vw;
+}
+.menuUploaded {
+  width: 4vw;
+  height: 4.5vw;
+  margin: 1vw;
+}
+.registrationPageImageBg {
+  height: 55vw;
+  width: 42vw;
+  position: relative;
+}
+@media only screen and (max-width: 764px) {
+  .headerIcon {
+  }
+  .logoIcon {
+    width: 45vw;
+    height: 8vw;
+    position: absolute;
+    top: 2.5vw;
+    left: 3.2vw;
+  }
+  .registerLogo {
+    width: 30vw;
+    height: 11vw;
+    position: absolute;
+    top: 1vw;
+    left: -1vw;
+  }
+  .menuUploaded {
+    margin: 1vw 1.5vw 0;
+  }
+  .menuUploaded {
+    width: 8vw;
+    height: 9vw;
+    margin: 1vw;
+  }
+  .registrationPageImageBg {
+    width: 90vw;
+    height: unset;
+  }
+}

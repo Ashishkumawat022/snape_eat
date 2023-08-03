@@ -1,0 +1,666 @@
+.fsaContainer__outer {
+  display: flex;
+  color: rgba(37, 37, 41, 0.6);
+  background-color: #fff;
+  /* width: 59.7vw; */
+  min-width: 550px;
+}
+.popupshadow {
+  box-shadow: 0px 0.3vw 0.3vw rgba(0, 0, 0, 0.25);
+  border-radius: 1.45vw;
+  background-color: #fff;
+}
+.sharesPopupContainer {
+  width: 28.28vw;
+  padding: 1vw;
+  min-width: 300px;
+}
+.sharesPopupContainer > h5 {
+  font-family: "Alegreya Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.2vw;
+  text-align: center;
+  color: #40c1af;
+}
+.sharePopupForm {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sharePopupForm > p {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.15vw;
+  line-height: 1.2vw;
+  width: 90%;
+  text-align: center;
+  color: #424242;
+  padding-bottom: 1vw;
+}
+.sharePopupForm > .inputBox {
+  padding: 0.5vw;
+  background: #ffffff;
+  border: 0.05vw solid #cfcfcf;
+  border-radius: 0.6vw;
+  width: 25vw;
+  height: 3.5vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.8vw;
+  overflow: hidden;
+}
+.sharePopupForm > .inputBox > label {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.07vw;
+  line-height: 1.45vw;
+  color: #9f9f9f;
+  min-width: fit-content;
+  margin-right: 0.5vw;
+}
+.sharePopupForm > .inputBox > select,
+.sharePopupForm > .inputBox > input {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.07vw;
+  line-height: 20px;
+  color: #1c1c1c;
+}
+
+.sharePopupForm > .inputBox > select:focus {
+  outline: none;
+}
+.sharePopupForm > .inputBox > input::placeholder {
+  color: #cfcfcf;
+}
+
+.popupHyperlink {
+  text-align: center;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 18px;
+  color: #40c1af;
+  margin: 1vw !important;
+}
+.infoContainer {
+  background: #fff;
+  position: relative;
+  width: 23vw;
+  border: 0.02vw solid #e0e0e0;
+  border-radius: 20px;
+  min-width: 300px;
+}
+.handsContainer {
+  width: 36vw;
+  padding: 15px;
+  background: #fff;
+  position: relative;
+  border: 0.02vw solid #e0e0e0;
+  border-radius: 20px;
+}
+.sharesPopupContainer {
+}
+.infoContainer__text {
+  font-weight: 400;
+  font-size: 1.1vw;
+  line-height: 1.5vw;
+  text-align: center;
+  letter-spacing: -0.02vw;
+  color: #9f9f9f;
+  padding: 0.4vw;
+}
+.fsaContainer {
+  width: 35.7vw;
+  padding: 1.1vw;
+  min-width: 400px;
+}
+.registerBtn {
+  font-weight: 600;
+  font-size: 1.6vw;
+  line-height: 2.5vw;
+  width: 13.5vw;
+  min-width: 150px;
+  height: 3vw;
+  color: #ffffff;
+  border-radius: 0.6vw;
+  border-style: none;
+  margin: 1vw 0px 1vw 9vw;
+  cursor: pointer;
+  background-color: #40c1af;
+  text-decoration: underline;
+}
+.registrationInput {
+  border-style: none;
+  width: 26.1vw;
+  height: 3vw;
+  box-shadow: 0px 0.03vw 0.03vw rgba(0, 0, 0, 0.25);
+  border: 0.02vw solid #e0e0e0;
+  border-radius: 0.6vw;
+  margin-left: 0.45vw;
+}
+.steps {
+  width: 7vw;
+  margin-right: 0.35vw;
+}
+.inputStyle {
+  width: 5vw;
+  justify-content: space-between !important;
+}
+.inputStyle > input {
+  height: 4.5vw !important;
+  width: 4.5vw !important;
+  border-radius: 50%;
+  border: 0.01vw solid #cfcfcf;
+  color: black;
+}
+.loginForm__popup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.5vw;
+  box-shadow: 0px 0.03vw 0.03vw 0.02vw rgba(0, 0, 0, 0.25);
+  background: #fff;
+  padding: 3vw;
+}
+.tipsImage {
+  width: 54vw;
+}
+.fsaTitle {
+  color: rgba(37, 37, 41, 0.6);
+  font-weight: 700;
+  font-size: 1.2vw;
+  line-height: 1.2vw;
+}
+.fsaText__primary {
+  color: rgba(37, 37, 41, 0.6);
+  font-weight: 400;
+  font-size: 1.2vw;
+}
+.fsaText__secondary {
+  color: #fc8730;
+  font-style: italic;
+  font-size: 1.2vw;
+}
+.fsaTitle__secondary {
+  font-weight: 700;
+  font-size: 1.2vw;
+}
+:global(br) {
+  line-height: 1vw;
+}
+.fsaTips {
+  font-weight: 600;
+  font-size: 1.2vw;
+  line-height: 1.45vw;
+  border-bottom: 0.02vw solid #40c1af;
+  width: fit-content;
+  text-align: center;
+  color: #40c1af;
+  margin-left: 7vw;
+  cursor: pointer;
+}
+.fsaHyperlink {
+  font-weight: 500;
+  font-size: 1.2vw;
+  line-height: 1.45vw;
+  text-decoration-line: underline;
+  color: #40c1af;
+  cursor: pointer;
+}
+.fsaRatingImg {
+  height: 70vw;
+  min-width: 150px;
+}
+.delivery-rules {
+  height: 95.5vw;
+  width: 67.6vw;
+}
+.docsContainer {
+  width: 200vw;
+  /* height: 60vw; */
+}
+.docsContainerSmall {
+  width: 153.8vw;
+  /* height: 60vw; */
+}
+.docsInner {
+  position: relative;
+  width: fit-content;
+}
+.docsImage {
+  width: 100%;
+  height: 100%;
+}
+
+.docsContainer::-webkit-scrollbar .fsaContainer__outer::-webkit-scrollbar {
+  display: none;
+}
+.docsHyperlink {
+  position: absolute;
+  font-weight: 500;
+  font-size: 1.15vw;
+  text-decoration-line: underline;
+  color: #40c1af;
+  right: 3.5%;
+  top: 6.6vw;
+  cursor: pointer;
+}
+.docs2Hyperlink {
+  position: absolute;
+  font-weight: 600;
+  font-size: 01.1vw;
+  line-height: 1.2vw;
+  text-decoration-line: underline;
+  color: #40c1af;
+  top: 5vw;
+  left: 69.2%;
+  cursor: pointer;
+}
+.insuranceInner {
+  position: relative;
+  width: 71vw;
+}
+.pinsuranceInner {
+  width: 42.5vw;
+  height: 53vw;
+  min-width: 300px;
+}
+.insurance-hyperlink {
+  position: absolute;
+  font-weight: 500;
+  font-size: 1vw;
+  line-height: 1.2vw;
+  text-decoration-line: underline;
+  color: #40c1af;
+  left: 28vw;
+  bottom: 20vw;
+  cursor: pointer;
+  background-color: #fff;
+}
+.fsaRatingImg__link {
+  color: rgba(37, 37, 41, 0.6);
+  text-decoration: underline;
+}
+
+.docsImage::-webkit-scrollbar {
+  display: none;
+}
+.takeawayContainer {
+  padding-top: 2vw;
+}
+.thumbIcon {
+  margin-left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  height: 4.7vw;
+  width: 4.7vw;
+  top: -2vw;
+}
+.takeawayTitle {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.7vw;
+  line-height: 1.7vw;
+  color: #40c1af;
+  margin: 3vw 0px 0.5vw !important;
+  text-align: center;
+}
+.takeawayHeader {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.3vw;
+  line-height: 1.3vw;
+  text-align: center;
+  color: #424242;
+  margin-bottom: 1vw !important;
+  width: 80%;
+  margin-left: 10%;
+}
+.takeaway__text {
+  font-family: "Alegreya Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 18px;
+  text-align: center;
+  color: #9f9f9f;
+  padding: 0px 7% !important;
+}
+.takeawayBtn {
+  background: #fc8730;
+  border-radius: 0.6vw;
+  width: 19vw;
+  height: 3.3vw;
+  font-weight: 600;
+  font-size: 1.45vw;
+  line-height: 1.45vw;
+  text-align: center;
+  color: #ffffff;
+  margin: 01vw 50% 2.1vw;
+  transform: translateX(-50%);
+}
+.documentPopup {
+  width: 26.8vw;
+  height: 11vw;
+  background: #ffffff;
+  border-radius: 0.7vw;
+  box-shadow: 0px 3vw 3vw rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  gap: 1.3vw;
+  justify-content: center;
+  align-items: center;
+}
+.documentPopup__btn {
+  font-weight: 600;
+  font-size: 1.3vw;
+  line-height: 2.5vw;
+  color: #ffffff;
+  background-color: #40c1af;
+  border-radius: 0.6vw;
+  width: 23vw;
+  height: 3.3vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.7vw;
+}
+
+.chefDiplomaContainer {
+  width: 35vw;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  align-items: center;
+  min-width: 400px;
+}
+.chefDiplomaTitle {
+  font-weight: 500;
+  font-size: 1.8vw;
+  line-height: 1.8vw;
+  width: 27vw;
+  text-align: center;
+  margin-top: 1vw;
+  min-width: 300px;
+}
+.chefDiplomaText {
+  font-weight: 700;
+  font-size: 1.1vw;
+  line-height: 1.1vw;
+  text-align: center;
+  color: #fff;
+}
+.chefDiplomaIcons {
+  display: flex;
+  gap: 1.5vw;
+  margin-top: 0.9vw;
+}
+.chefDiplomaIcon {
+  padding: 1vw 0.7vw;
+  width: 8.5vw;
+  height: 8.5vw;
+  background-color: #fc8730;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 100px;
+  min-height: 100px;
+}
+.profchefDetails {
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 1.15vw;
+  color: #40c1af;
+}
+
+.forgotPasswordBox {
+  font-family: "Open Sans";
+  font-style: normal;
+  width: 50.7vw;
+  height: 27.8vw;
+  display: flex;
+
+  justify-content: center;
+  background-color: #fff;
+}
+.forgotPasswordBox__form {
+  width: 41.14vw;
+  height: 20.4vw;
+  margin-top: 2vw;
+}
+.forgotPasswordBox__formRow {
+  margin-top: 3.5vw;
+  display: flex;
+  height: 5.1vw;
+}
+.forgotPasswordBox__formloginIcon {
+  height: 4.57vw;
+  width: 4.57vw;
+  margin-right: 1.7vw;
+}
+
+.forgotPasswordBox__rowInput > h6 {
+  font-weight: 700;
+  font-size: 0.85vw;
+  line-height: 1.7vw;
+  letter-spacing: 0.1vw;
+  text-transform: uppercase;
+  color: #182135;
+  width: 40vw;
+}
+.forgotPasswordBox__rowInput > input {
+  font-family: "Open Sans";
+  font-style: normal;
+  width: 35vw;
+  height: 2.4vw;
+  border-style: none;
+  border-bottom: 0.2vw solid rgba(163, 163, 164, 0.16);
+  font-weight: 400;
+  font-size: 1.4vw;
+  color: #626264;
+  padding-bottom: 0.6vw;
+}
+.forgotPasswordButton {
+  width: 100%;
+  height: 4.57vw;
+  border-radius: 0.85vw;
+  border-style: none;
+  background-color: #40c1af;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.45vw;
+  color: #f7fafc;
+  cursor: pointer;
+  margin-top: 2.1vw;
+}
+:global(.Popups_forgotPasswordBox__rowInput__uEvKy .MuiInputBase-root) {
+  width: 85%;
+  border-bottom: 0.1vw solid rgb(226, 226, 226);
+}
+:global(
+    .Popups_forgotPasswordBox__rowInput__uEvKy
+      .MuiInput-underline:hover:not(.Mui-disabled):before
+  ) {
+  border: none;
+}
+
+:global(.Popups_forgotPasswordBox__rowInput__uEvKy .MuiInputBase-input) {
+  padding: 0.4vw;
+  font-size: 1.5vw;
+  font-weight: 400;
+  color: #626264;
+}
+:global(.Popups_forgotPasswordBox__rowInput__uEvKy .MuiInput-underline:before) {
+  border: none !important;
+}
+:global(.Popups_forgotPasswordBox__rowInput__uEvKy .MuiInput-underline:after) {
+  border: none !important;
+}
+:global(.css-1ty026z) {
+  padding: 0px !important;
+  max-width: 90vw !important;
+}
+
+:global(.Popups_inputBox__zIThu > .react-tel-input > .form-control) {
+  width: 100%;
+  border: none;
+  border-radius: 0px;
+  background: none;
+  font-weight: 500;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-size: 1.07vw;
+}
+
+:global(
+    .Popups_inputBox__zIThu > .react-tel-input > .form-control::placeholder
+  ) {
+  font-size: 1vw;
+  color: #e6e5e5;
+  font-family: "Open Sans";
+  font-style: normal;
+}
+:global(.Popups_inputBox__zIThu > .react-tel-input > .flag-dropdown) {
+  border: none;
+
+  background: none;
+}
+:global(
+    .Popups_inputBox__zIThu > .react-tel-input > .flag-dropdown > .selected-flag
+  ) {
+  border-style: none;
+}
+:global(.Popups_inputBox__zIThu > .react-tel-input > .form-control:focus) {
+  box-shadow: none !important;
+}
+:global(.MuiTypography-root) {
+  padding: 0px !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .forgotPasswordBox {
+    font-family: "Open Sans";
+    font-style: normal;
+    width: 80vw;
+    height: 50vw;
+    background-color: #fff;
+  }
+  .forgotPasswordBox__form {
+    width: 80%;
+    height: 80%;
+  }
+  .forgotPasswordBox__formRow {
+    height: 5.1vw;
+    margin-top: 7vw !important;
+  }
+  .forgotPasswordBox__formloginIcon {
+    height: 8vw;
+    width: 8vw;
+    margin-right: 3vw;
+  }
+
+  .forgotPasswordBox__rowInput > h6 {
+    font-size: 1.7vw;
+    margin-bottom: 2vw !important;
+  }
+
+  .forgotPasswordButton {
+    height: 6vw;
+    font-size: 3vw;
+    margin-top: 7vw;
+  }
+  .infoContainer {
+    padding: 2vw;
+  }
+  .infoContainer__text,
+  .chefDiplomaText {
+    font-size: 2.5vw;
+    line-height: 2.5vw;
+  }
+  .chefDiplomaTitle {
+    font-size: 3vw;
+    line-height: 3vw;
+    margin-bottom: 20px !important;
+  }
+
+  :global(.Popups_forgotPasswordBox__rowInput__uEvKy .MuiInputBase-root) {
+    width: 52vw;
+    border-bottom: 0.1vw solid rgb(226, 226, 226);
+  }
+  :global(
+      .Popups_forgotPasswordBox__rowInput__uEvKy
+        .MuiInput-underline:hover:not(.Mui-disabled):before
+    ) {
+    border: none;
+  }
+
+  :global(.Popups_forgotPasswordBox__rowInput__uEvKy .MuiInputBase-input) {
+    padding: 0.4vw;
+    height: 3vw;
+    font-size: 3vw;
+    font-weight: 400;
+    color: #626264;
+  }
+  :global(
+      .Popups_forgotPasswordBox__rowInput__uEvKy
+        .MuiInputBase-input::placeholder
+    ) {
+    font-size: 3vw;
+  }
+  :global(
+      .Popups_forgotPasswordBox__rowInput__uEvKy .MuiInput-underline:before
+    ) {
+    border: none !important;
+  }
+  :global(
+      .Popups_forgotPasswordBox__rowInput__uEvKy .MuiInput-underline:after
+    ) {
+    border: none !important;
+  }
+
+  .fsaTitle {
+    font-size: 13px !important;
+  }
+  .fsaText__primary {
+    
+    font-size: 10px !important;
+  }
+  .registerBtn {
+   
+    font-size: 9px;
+    line-height: 2.5vw;
+    width: 13.5vw;
+    min-width: 150px;
+    height: 5vw;
+   
+  }
+  .fsaTitle__secondary {
+    font-size: 1.8vw;
+  }
+  .fsaText__secondary {
+    
+    font-size: 2.2vw;
+  }
+  .fsaHyperlink {
+    
+    font-size: 2.2vw;
+    
+  }
+  .fsaContainer {
+    width: 35.7vw;
+    padding: 2.1vw;
+    min-width: 400px;
+  }
+}

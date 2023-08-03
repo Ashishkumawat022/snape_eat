@@ -1,0 +1,2110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.registrationContainer {
+  width: 100vw;
+  background-color: #fff;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.registrationBox_merchantDetails {
+  width: 37.3vw;
+}
+
+.registrationTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-bottom: 2vw;
+  top: -2vw;
+}
+
+.userInformation {
+  font-family: "Alegreya Sans";
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+}
+
+.userProfile__logo {
+  position: relative;
+  height: 5.7vw;
+  width: 5.7vw;
+  border-radius: 50%;
+  border: 0.1vw solid #cfcfcf;
+  box-shadow: 0px 0.4vw 0.4vw rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  margin-top: 1vw 0.7vw;
+}
+.chefInformation__header > .userProfile__logo {
+  margin-top: 2vw;
+}
+.uploadPopup {
+  position: relative;
+  top: -2.2vw;
+  left: -1.2vw;
+  height: 3vw;
+  width: 3vw;
+}
+.userprofile1 {
+  height: 3vw;
+  width: 3vw;
+  left: -0.8vw;
+  bottom: -1.2vw;
+  position: relative;
+}
+.userprofile2 {
+  top: -1vw;
+  height: 1.3vw;
+  position: relative;
+  left: 0px;
+}
+.userProfile__logo > p {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  height: 90%;
+  font-size: 1.55vw;
+  font-weight: 500;
+  line-height: 1.4vw;
+  color: #fc8730;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.userProfile__name {
+  padding: 1vw;
+}
+.userProfile__name > p {
+  text-align: start;
+  color: #40c1af;
+  font-family: "Alegreya Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.15vw;
+  line-height: 1.2vw;
+  margin-top: 2vw;
+}
+.userProfile__name > h3 {
+  font-weight: 500;
+  font-size: 2.85vw;
+  color: #424242;
+}
+.userProfile__button {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  width: 11vw;
+  border-radius: 17vw;
+  height: 2.5vw;
+  color: #fff;
+  background-color: #bdbdbd;
+  border-style: none;
+  cursor: pointer;
+  margin-top: 4.3vw;
+  font-weight: 500;
+  font-size: 1.15vw;
+  text-align: center;
+  color: #ffffff;
+  border: 0.1vvw solid #ffffff;
+}
+.userProfile__buttonGreen {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  background: #40c1af;
+  height: 2.2vw;
+  width: 10.7vw;
+  border-radius: 1.45vw;
+  font-weight: 500;
+  font-size: 1.15vw;
+  line-height: 0.7vw;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 5vw;
+}
+.userProfile__message {
+  font-family: "Alegreya Sans";
+  font-style: normal;
+  width: fit-content;
+  margin-top: 1.5vw;
+  font-weight: 500;
+  font-size: 1.85vw;
+  color: #40c1af;
+  border-bottom: 0.2vw solid #40c1af;
+  cursor: pointer;
+  line-height: 1;
+}
+.chefuserProfile__message {
+  font-family: "Alegreya Sans";
+  font-style: normal;
+  margin: 4.5vw 0px 0px 0px !important;
+  width: fit-content;
+  font-weight: 500;
+  font-size: 2vw;
+  color: #40c1af;
+  border-bottom: 0.2vw solid #40c1af;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.registrationBoxes {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.registrationBoxes__top {
+  display: flex;
+  flex-direction: row;
+  gap: 3.4vw;
+}
+.registrationBox {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  position: relative;
+  border-radius: 1.7vw;
+  background: #ffffff;
+  border: 0.05vw solid #cfcfcf;
+  box-shadow: 0px 0.35vw 0.35vw rgba(0, 0, 0, 0.25);
+  margin-bottom: 1.5vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 1.3vw;
+  height: fit-content;
+}
+.registrationBox_terms {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  padding-bottom: 1.3vw;
+}
+.chefBox_terms {
+  width: 29vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.registrationBoxTitle {
+  font-family: "Alegreya Sans";
+  font-style: normal;
+  height: 3.5vw;
+  border: 0.1vw solid #cfcfcf;
+  box-shadow: 0px 0.35vw 0.35vw rgba(0, 0, 0, 0.25);
+  border-radius: 1.7vw 1.7vw 0px 0px;
+  background: #fc8730;
+  text-align: center;
+  width: 100%;
+}
+.registrationBoxTitle > p {
+  font-weight: 500;
+  font-size: 2vw;
+  color: #ffffff;
+  margin-top: 0.25vw;
+}
+.formInputfields {
+  padding: 1vw 1vw 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8vw;
+  align-items: center;
+}
+.largerBoxField {
+  width: 27vw;
+}
+.inputField__box {
+  width: 100%;
+  border: 0.05vw solid #cfcfcf;
+  border-radius: 0.7vw;
+  height: 3.5vw;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 0px 0.8vw;
+}
+.inputField__box > label {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.1vw;
+  color: #9f9f9f;
+  width: 25%;
+  min-width: fit-content;
+  text-align: start;
+  display: flex;
+  gap: 0.5vw;
+}
+.inputField__box > input,
+.inputField__boxDual > select,
+.chefFsa__rating > input,
+.registerInputArea {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.1vw;
+  border-style: none;
+  font-weight: 400;
+  padding-left: 0.7vw;
+  color: #1c1c1c;
+}
+.inputField__boxDual > input {
+  border-style: none;
+  font-weight: 500;
+  font-size: 1.1vw;
+  margin-right: 0.8vw;
+  width: 100%;
+}
+.inputField__boxDual > select,
+.inputField__boxDual > select:focus {
+  border-style: none;
+  outline: none;
+}
+
+.inputField__boxDual > input::placeholder,
+.inputField__box > input::placeholder,
+.chefFsa__rating > input::placeholder,
+.mobileNumber > input::placeholder {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 350;
+  color: #cfcfcf;
+  font-size: 1.1vw;
+}
+.registrationBoxitems__msg {
+  font-weight: 500;
+  font-size: 1.5vw;
+  margin-top: 1.2vw;
+}
+.registrationBoxitems__msgGreen {
+  font-weight: 500;
+  font-size: 1.5vw;
+  margin-top: 1.2vw;
+  color: #40c1af;
+  cursor: pointer;
+}
+
+.registrationBoxitems__msgFacilities {
+  font-weight: 500;
+  font-size: 1.4vw;
+  text-align: center;
+  margin: 2.5vw 0px;
+}
+.registrationTitle__username {
+  font-size: 3.3vw;
+  margin-top: 1.8vw;
+}
+
+.registrationBoxitems__linkcontainer {
+}
+.registrationBoxitems__link {
+  color: #40c1af;
+  cursor: pointer;
+  border-bottom: 1.5px solid #40c1af;
+  font-weight: 500;
+  font-size: 1.3vw;
+  line-height: 1;
+}
+.kitchenItems {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0 1vw;
+  gap: 01vw;
+}
+.kitchenItems__item {
+  /* width: 20%; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.kitchenItems__btn {
+  height: 5vw;
+  width: 5vw;
+  background-color: #fc8730;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 11px;
+}
+.kitchenItems__item svg {
+  cursor: pointer;
+  height: 4vw;
+  width: 4vw;
+  top: 0.2vw;
+  right: 0vw;
+  position: relative;
+}
+
+.kitchenItems__btnGreen {
+  height: 5vw;
+  width: 5vw;
+  background-color: #40c1af;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* .kitchenItems__btn {
+} */
+
+.kitchenItems__item > p {
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.4vw;
+  text-align: center;
+  color: #5d5d5d;
+  width: min-content;
+  margin-top: 0.5vw;
+}
+.kitchenItems__qr1,
+.kitchenItems__qr2 {
+  font-weight: 300;
+  font-size: 1.1vw;
+  color: #1c1c1c;
+  text-align: center;
+}
+
+.kitchenItems__qr1 {
+  margin-top: 0.4vw;
+}
+.kitchenItems__qr {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 0.94vw;
+  margin-top: 0.4vw;
+  color: #424242;
+}
+.pickupPoint {
+  text-align: center;
+  margin-bottom: 0.8vw;
+}
+.pickupPoint > a {
+  font-weight: 500;
+  font-size: 1.25vw;
+  color: #40c1af;
+}
+.pickupIcons {
+  height: 1vw;
+  width: 1.3vw;
+  display: inline-block;
+  margin-bottom: 0.2vw;
+}
+.floorNumber {
+  margin-left: 3vw;
+  padding: 0.3vw;
+  width: 9vw !important;
+  border: 0.05vw solid #bdbdbd !important;
+  border-radius: 0.6vw;
+}
+.registrationBox__rightFirst {
+  display: flex;
+}
+.registrationBox__map {
+  position: relative;
+  padding-top: 0.8vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 4px;
+}
+.pinMapButton {
+  position: absolute;
+  width: 8vw;
+  height: 2.5vw;
+  top: 1.2vw;
+  background-color: #fc8730;
+  border-radius: 1.7vw;
+  border-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.pinMapLogo {
+  width: 1.5vw;
+}
+.pinMapButton > p {
+  font-weight: 500;
+  font-size: 1vw;
+  margin-left: 0.25vw;
+  color: #ffffff;
+}
+.mapImage {
+  width: 16vw;
+}
+.streetView__image,
+.parkingInstructions {
+  margin-top: 0.5vw;
+  width: 17vw;
+  height: 5.5vw;
+  border: 0.05vw solid #cfcfcf;
+  padding: 0.2vw;
+  border-radius: 0.7vw;
+}
+
+.streetView__image > h6 {
+  font-weight: 500;
+  font-size: 0.85vw;
+  padding-left: 0.4vw;
+  color: #9f9f9f;
+  text-align: start;
+}
+.parkingInstructions > h6 {
+  font-weight: 500;
+  text-align: start;
+  font-size: 1.05vw;
+  color: #9f9f9f;
+  padding-left: 0.4vw;
+}
+.streetView__msg {
+  display: flex;
+}
+.streetView__msg > img {
+  cursor: pointer;
+}
+.streetView__msg > p {
+  font-weight: 400;
+  font-size: 0.9vw;
+  color: #cfcfcf;
+  margin-top: 0.4vw;
+  text-align: start;
+  padding-left: 0.4vw;
+  width: 15vw;
+}
+.streetView__msgImg {
+  height: 3vw;
+  width: 3vw;
+  background-color: #fc8730;
+  border-radius: 50%;
+}
+.streetView__msgImg svg {
+  width: 2vw;
+  height: 2vw;
+  padding-left: 0.2vw;
+}
+.parkingInstructions > textarea {
+  font-size: 1.1vw;
+  border-style: none;
+  width: 100%;
+  resize: none;
+  padding: 0px 0.4vw;
+  overflow: hidden;
+}
+.parkingInstructions > textarea:focus {
+  outline: none;
+}
+.parkingInstructions > textarea::placeholder {
+  color: #cfcfcf;
+}
+.regisrationRight__outer {
+  position: absolute;
+  right: 10px;
+  top: 54vw;
+  overflow: hidden;
+}
+
+/* .merchantRegisterPage__phoneImg {
+  position: relative;
+  top: -5.6vw;
+  overflow: visible;
+} */
+/* .chefRegisterPage__phoneImg {
+  width: 42vw;
+  position: relative;
+  top: -9.4vw;
+  overflow: visible;
+  z-index: 10;
+}
+.chefDetailsRegisterPage__phoneImg {
+  width: 42vw;
+  position: relative;
+  top: -6.5vw;
+  overflow: visible;
+  z-index: 10;
+} */
+.documentsIcons__container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2.3vw;
+  margin-bottom: 1.7vw;
+  width: 100%;
+}
+
+.documentsIcons {
+  position: relative;
+  height: 6.5vw;
+  width: 6.5vw;
+  background-color: #fc8730;
+  border-radius: 50%;
+  padding: 0.2vw;
+  box-shadow: 0px 4px 4px #cfcfcf;
+}
+
+.documentsIcons__green {
+  position: relative;
+  height: 6.6vw;
+  width: 6.6vw;
+  background-color: #40c1af;
+  border-radius: 50%;
+  padding: 0.4vw;
+  box-shadow: 0px 0.3.5vw 0.3.5vw #cfcfcf;
+  font-size: 1vw;
+  display: flex;align-items:center !important;
+  justify-content: center !important;
+}
+.documentsIcons.chefInformation {
+  height: 6.6vw !important;
+  width: 6.6vw !important;
+}
+
+.documentsIcons__btn,
+.chefdocumentsIcons__btn {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  height: 100%;
+  justify-content: center !important;
+}
+.merchantDocuments__img {
+  width: 2.5vw;
+}
+.chefdocuments__img {
+  width: 3vw;
+}
+
+.documentsIcons__btn > p {
+  font-weight: 600;
+  font-size: 0.7vw;
+  line-height: 01vw;
+  color: #ffffff;
+}
+.chefdocumentsIcons__btn > p {
+  font-weight: 600;
+  font-size: 1.2vw;
+  line-height: 01.2vw;
+  color: #ffffff;
+  text-align: center;
+}
+
+.documentsIcons__btn > span {
+  font-weight: 500;
+  font-size: 0.7vw;
+  line-height: 0.7vw;
+  color: #ffffff;
+  text-align: center;
+  padding: 0;
+}
+.chefdocumentsIcons__btn > span {
+  font-size: 1vw;
+  line-height: 0.9vw;
+  color: #ffffff;
+  font-weight: 600;
+}
+.documentsIcons__btn > span {
+  font-size: 0.8vw;
+}
+.documentsIcons__btn {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+.documentsIcons__btn > svg {
+  width: 2.5vw;
+  height: 3vw;
+}
+.imageMenu {
+  position: absolute;
+  width: 5.3vw;
+  top: 1.5vw;
+  left: 2vw;
+}
+.registrationBoxitems__msg2 {
+  font-weight: 300;
+  font-size: 1.2vw;
+  margin-bottom: 0.4vw;
+  color: #1c1c1c;
+}
+
+.registrationBox__terms {
+  margin-bottom: 0.8;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.registrationBox__terms > img {
+  height: 1.7vw;
+  width: 1.7vw;
+}
+.chefBox_terms > .registrationBox__terms {
+  margin-bottom: 0.8;
+  width: 95% !important;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.registrationBox__terms > p {
+  margin-left: 0.85vw;
+  font-weight: 400;
+  font-size: 0.9vw;
+  color: #bdbdbd;
+  position: relative;
+  text-align: start;
+}
+.registratioBox__terms > p > span {
+  font-weight: 800;
+  margin-right: 0.18vw;
+  color: #fc8730;
+}
+.registrationBox__termsLink {
+  display: inline-block;
+  color: #33cce1;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.infoIcon {
+  position: relative;
+  height: 1.7vw;
+  width: 1.7vw;
+}
+.missingDocs {
+  position: relative;
+}
+/* --------------------chefinformation------------------ */
+.registrationTitle__usernameChef {
+  font-weight: 500;
+  font-size: 2.9vw;
+  margin-top: 0.8vw;
+  margin-left: 0.8vw;
+}
+.userProfile__buttonChef {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  width: 12.5vw;
+  border-radius: 1.7vw;
+  height: 2.5vw;
+  color: #fff;
+  background-color: #bdbdbd;
+  text-align: center;
+  margin-top: 1.6vw;
+  margin-left: 0.8vw;
+  border: 0.1vw solid #ffffff;
+  font-weight: 500;
+  font-size: 1.3vw !important;
+}
+.chefInformation__container {
+  justify-content: space-between;
+  padding: 0px 1.1vw;
+}
+.chefInformationTitle {
+  width: 80%;
+  padding-left: 2vw;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2.5vw;
+}
+.chefFsa__rating {
+  position: relative;
+  box-shadow: 0px 0.4vw 0.4vw rgba(0, 0, 0, 0.25);
+  border-radius: 0.7vw;
+  width: 27vw;
+  height: 4vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8vw;
+  margin: 0.8vw 0px;
+}
+.chefFsa__rating > p {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 600;
+  min-width: fit-content;
+  font-size: 1.1vw;
+  margin-left: 0.8vw;
+  color: #1c1c1c;
+}
+
+.addressContainer {
+  width: 43vw;
+  position: relative;
+}
+.collectionContainer {
+  position: absolute;
+}
+.collectionContainer.active {
+  top: 2.5vw;
+  z-index: 1;
+  left: 1.1vw;
+}
+.chefFsa__box > input {
+  border-style: none;
+}
+.chefFsa__box > a {
+  margin-left: 0.8vw;
+}
+.specialBadge {
+  position: relative;
+  width: 90%;
+  text-align: start;
+  font-weight: 400;
+  font-size: 1.1vw;
+  color: #9f9f9f;
+  margin-bottom: 0;
+}
+.yourPicture {
+  padding: 0.5vw 0.3vw !important;
+}
+:global(p) {
+  margin-bottom: 0 !important;
+}
+.infoIcon__container {
+  position: absolute;
+  right: 1vw;
+}
+.merchantDocuments {
+  width: 37.4vw;
+}
+.prochefDetails {
+  font-size: 1.1vw;
+  color: #40c1af;
+  cursor: pointer;
+}
+.addressType {
+  cursor: pointer;
+  width: 15vw;
+  background-color: rgb(234, 234, 234);
+  display: flex;
+  justify-content: space-around;
+  border-radius: 1.7vw;
+}
+.addressTypeOne,
+.addressTypeTwo {
+  padding: 0.4vw;
+  border-radius: 1.7vw;
+  text-align: center;
+  width: 50%;
+}
+.activeAddress {
+  background-color: #40c1af;
+  color: white;
+}
+.horizontalLine {
+  margin-top: 0.4vw;
+  height: 1.2vw;
+  border: 0.1vw solid white;
+}
+.pickupPoint {
+  margin-top: 0.8vw;
+  width: 9vw;
+  height: 3vw;
+  box-shadow: 0px 0.3vw 1vw rgba(158, 158, 158, 0.25);
+  border-radius: 8vw;
+  padding-top: 0.8vw;
+}
+.chefInformation__header {
+  display: flex;
+}
+.vatId {
+  width: 8vw;
+}
+/* -----------------input------------------ */
+.inputContainer {
+  width: 58vw;
+  height: 6vw;
+}
+.inputBox__container {
+  margin-top: 0.8vw;
+  height: 4vw;
+  border-radius: 0.7vw;
+  border: 0.05vw solid #cfcfcf;
+  padding: 1.2vw;
+  display: flex;
+  width: 31vw;
+}
+.input-box__container.bold {
+  width: 25vw;
+  box-shadow: 0px 0.3vw 0.3vw rgba(0, 0, 0, 0.25);
+  position: relative;
+}
+.instagramIcon {
+  height: 1.5vw;
+  display: inline-block;
+}
+.inputField__box > label {
+  font-weight: 400;
+  font-size: 1.07vw;
+  color: #9f9f9f;
+}
+.inputField__boxDual > label {
+  padding: 0 0.5vw;
+  font-weight: 400;
+  font-size: 1.07vw;
+  color: #9f9f9f;
+}
+
+.inputBox__labelBold {
+  font-weight: 600;
+  font-size: 1.1vw;
+  width: 12.5vw;
+}
+.submitButton {
+  height: 4vw;
+  width: 20vw;
+  border-style: none;
+  font-weight: 600;
+  font-size: 2vw;
+  color: #ffffff;
+  background: #cfcfcf;
+  border-radius: 0.3vw;
+  cursor: pointer;
+  margin-top: 1vw;
+}
+input:focus {
+  outline: none;
+}
+.inputBox__dual {
+  display: flex;
+  gap: 1vw;
+  width: 100%;
+}
+.inputField__boxDual {
+  width: 50%;
+  border: 0.05vw solid #cfcfcf;
+  border-radius: 0.7vw;
+  height: 3.5vw;
+  display: flex;
+  align-items: center;
+  padding: 0px 0.4vw;
+  display: flex;
+  overflow: hidden;
+}
+
+.registerFsa__merchant {
+  text-transform: none;
+  position: absolute;
+  font-weight: 500;
+  font-size: 1.1vw;
+  text-decoration-line: underline;
+  color: #40c1af;
+  cursor: pointer;
+  width: max-content;
+  right: 0.1vw;
+  bottom: -2vw;
+}
+.registerFsa__chef {
+  text-transform: none;
+  position: absolute;
+  font-weight: 500;
+  bottom: -1.7vw;
+  font-size: 1.1vw;
+  text-decoration-line: underline;
+  color: #40c1af;
+  cursor: pointer;
+  width: max-content;
+}
+.inputField__boxPassword {
+  width: 80%;
+  border: none;
+
+  margin-left: 0.8vw;
+  position: relative;
+}
+
+.changePassword {
+  position: absolute;
+
+  right: 4vw;
+  font-size: 1.1vw;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 500;
+  color: #40c1af;
+}
+
+.registrationBox_restuarantDetails {
+  width: 45.3vw;
+}
+/* ------------------------------------------- */
+.addressWrapper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #e0e0e0;
+  border-radius: 3vw;
+  width: 12vw;
+  height: 2.5vw;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1vw;
+  margin-left: 1vw;
+}
+.addressWrapper > .option {
+  background: transparent;
+  height: 2.5vw;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 3vw;
+}
+.optionOne:checked:checked ~ .option1 .dot::before,
+.optionTwo:checked:checked ~ .option2 .dot::before,
+.option__one1:checked:checked ~ .optionOne1 .dot::before,
+.option__two2:checked:checked ~ .optionTwo2 .dot::before {
+  opacity: 1;
+  transform: scale(1);
+}
+.addressWrapper > .option > span {
+  color: #424242;
+  padding: 8px;
+}
+.optionOne:checked:checked ~ .option1 span,
+.optionTwo:checked:checked ~ .option2 span,
+.option__one1:checked:checked ~ .optionOne1 span,
+.option__two2:checked:checked ~ .optionTwo2 span {
+  color: #fff;
+}
+.pickupWrapper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.pickupWrapper > .option {
+  background: transparent;
+  height: 2.5vw;
+  width: 7.7vw;
+  font-weight: 500;
+  font-size: 1vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 3vw;
+  box-shadow: 0px 0.3vw 1vw rgba(158, 158, 158, 0.25);
+}
+
+:global(input[type="radio"]) {
+  display: none;
+}
+.pickupOptionOne:checked:checked ~ .pickupoption1,
+.pickupOptionTwo:checked:checked ~ .pickupoption2,
+.optionOne:checked:checked ~ .option1,
+.optionTwo:checked:checked ~ .option2,
+.option__one1:checked:checked ~ .optionOne1,
+.option__two2:checked:checked ~ .optionTwo2 {
+  background: #40c1af;
+}
+.wrapper > .option > span {
+  font-size: 1.7vw;
+  color: #808080;
+}
+.pickupOptionOne:checked:checked ~ .pickupoption1 span,
+.pickupOptionTwo:checked:checked ~ .pickupoption2 span,
+.addressWrapper__separator {
+  color: #fff;
+}
+
+.positionSelector {
+  margin-left: 1vw;
+}
+.positionSelector::-ms-expand {
+  display: none;
+}
+.instaIcon {
+  position: absolute;
+  left: 8vw;
+  cursor: pointer;
+}
+.mobileCheckbox {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 100%;
+  margin-left: 0.5vw;
+}
+.mobileCheckbox > p {
+  margin-top: 0.25vw;
+  font-size: 1.1vw;
+  color: #626264;
+  font-weight: 500;
+  width: MAX-content;
+}
+.mobileNumber {
+  display: flex;
+  align-items: center;
+  border: 0.1vw solid #e7e7e7;
+  border-radius: 0.7vw;
+  width: 54%;
+}
+.closeIcon {
+}
+.closeIcon__img {
+  z-index: 1;
+  height: 2vw;
+}
+.mobileNumber > input {
+  height: 3vw;
+  width: 90%;
+  padding-left: 0.8vw;
+  font-size: 1.1vw;
+}
+
+.infoLogo {
+  display: inline-block;
+  cursor: pointer;
+  height: 1.7vw;
+  width: 1.7vw;
+}
+
+:global(span > .MuiSwitch-root) {
+  margin: 0.4vw 0px 0px 1.1vw;
+  height: 1.3vw;
+  width: 2.7vw;
+  padding: 0px;
+  margin-right: 0.5vw;
+}
+
+:global(span > .MuiSwitch-root > .MuiButtonBase-root) {
+  padding: 0.1vw;
+}
+
+:global(span > .MuiSwitch-root > .MuiButtonBase-root > .MuiSwitch-thumb) {
+  box-shadow: none;
+  background-color: white;
+  height: 1.1vw;
+  width: 1.3vw;
+  border-radius: 50%;
+  color: #cfcfcf;
+}
+:global(span > .MuiSwitch-root > .MuiSwitch-track) {
+  border-radius: 8.5vw;
+  background-color: #cfcfcf;
+  opacity: 1;
+}
+:global(span > .MuiSwitch-root > .Mui-checked) {
+  transform: translateX(1.2vw);
+}
+:global(span > .MuiSwitch-root > .Mui-checked + .MuiSwitch-track) {
+  opacity: 1;
+  background-color: #40c1af;
+}
+:global(div > .MuiButtonBase-root),
+:global(p > .MuiButtonBase-root) {
+  text-transform: none;
+  background-color: transparent;
+  padding: 0px;
+  min-width: fit-content;
+  transition: none;
+  line-height: 1;
+}
+.orangeEllipse {
+  position: relative;
+  height: 8.5vw;
+  width: 8.5vw;
+  border-radius: 50%;
+  background-color: #fc8730;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 0.1vw solid #fc8730;
+  box-shadow: 0px 0.3vw 0.3vw #cfcfcf;
+  padding: 0.4vw;
+}
+.confirmPickup__button,
+.changePickup__button {
+  width: 15vw;
+  min-width: max-content;
+  height: 3vw;
+  background-color: #40c1af;
+  color: #fff;
+  border-radius: 0.3vw;
+  font-weight: 500;
+  font-size: 1.2vw;
+  width: 10vw;
+  padding: 0.5vw;
+}
+.changePickup__button {
+  background-color: #fc8730;
+}
+.viewSample {
+  font-size: 1.7vw;
+}
+.changePickup__container {
+  position: absolute;
+  bottom: 0.4vw;
+
+  width: 60%;
+}
+.changePickup {
+  width: max-content;
+  font-weight: 500;
+  font-size: 1.1vw;
+  line-height: 1;
+  border-bottom: 0.1vw solid #40c1af;
+  cursor: pointer;
+  color: #40c1af;
+  margin-left: 25%;
+}
+
+.registerFsa {
+  position: absolute;
+  bottom: -2vw;
+  color: #40c1af;
+  text-decoration: underline;
+  font-weight: 500;
+  font-size: 1.25vw;
+  width: fit-content;
+}
+.progressBar {
+  height: 7vw;
+  width: 7vw;
+  position: absolute;
+  top: -13vw;
+  right: 2vw;
+  z-index: 10;
+}
+
+:global(.CircularProgressbar-path) {
+  stroke: #fc8730 !important;
+}
+:global(.CircularProgressbar-trail) {
+  stroke: #35b7a6 !important;
+}
+:global(.CircularProgressbar-text) {
+  font-family: "Alegreya Sans" !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 30px !important;
+  line-height: 28px !important;
+  fill: #fc8730 !important;
+}
+:global(
+    .MerchantRegistration_chefdocumentsIcons__btn__Ri5kg
+      > button.css-1e6y48t-MuiButtonBase-root-MuiButton-root
+  ) {
+  position: relative !important;
+}
+:global(.CircularProgressbar) {
+  background: white;
+  border-radius: 50%;
+}
+.progressMessage {
+  font-family: "Alegreya Sans";
+  font-style: normal;
+  font-weight: 700;
+  color: #fff;
+  font-size: 1.6vw;
+}
+.regisration-right__outer.merchant-register {
+  top: 59vw;
+}
+:global(h6) {
+  margin: 0px !important;
+}
+.accountSecurity__container {
+  display: flex;
+}
+.accountSecurity {
+  font-weight: 500;
+  font-size: 1.15vw;
+  padding-top: 0.3vw;
+  color: #fc8730;
+  padding-left: 1vw;
+}
+.chefDetailsDocuments {
+  margin-top: 2.3vw;
+  font-weight: 500;
+  font-size: 1.4vw;
+}
+.chefDetails__rating {
+  font-weight: 600;
+  font-size: 1.25vw;
+  line-height: 1.7vw;
+  color: #9f9f9f;
+}
+.chefDetails__hyperlink {
+  font-weight: 400 !important;
+  font-size: 1.2vw;
+  cursor: pointer;
+  text-decoration-line: underline;
+  color: #40c1af !important;
+}
+.sharePercent {
+  margin: 0px;
+  padding: 0px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+:global(
+    .MerchantRegistration_inputField__box__gyqYa
+      > .react-tel-input
+      > .form-control
+  ) {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  width: 100%;
+  border: none;
+  height: 3vw;
+  border-radius: 0px;
+  font-size: 1.1vw;
+  line-height: 1.45vw;
+  background: none;
+  padding-left: 40px;
+  font-weight: 500 !important;
+}
+:global(
+    .MerchantRegistration_inputField__box__gyqYa
+      > .react-tel-input
+      > .flag-dropdown
+  ) {
+  border: none;
+  background: none;
+  width: 3vw;
+}
+
+.inputField__box :global(.form-control){
+  border: none !important;
+  background-color: transparent !important;
+}
+
+/* phon input field  */
+.inputField__box :global(.flag-dropdown){
+  background-color: transparent !important;
+  border: none !important;
+  }
+
+.inputField__box :global(.form-control){
+  background-color: none !important;
+  border: none;
+  width: 100% !important;
+  }
+  .inputField__box :global(.form-control:disabled){
+    background-color: transparent !important;
+    border: none;
+    }
+  
+
+
+:global(
+    .MerchantRegistration_inputField__box__gyqYa
+      > .react-tel-input
+      > .flag-dropdown
+      > .selected-flag
+  ) {
+  border-style: none;
+  width: 3vw;
+}
+:global(
+    .MerchantRegistration_inputField__box__gyqYa
+      > .react-tel-input
+      > .flag-dropdown
+      > .selected-flag
+      > .flag
+  ) {
+  position: relative;
+}
+
+:global(
+    .MerchantRegistration_inputField__box__gyqYa
+      > .react-tel-input
+      > .form-control:focus
+  ) {
+  box-shadow: none;
+  border: none;
+
+}
+
+:global(
+    .MerchantRegistration_inputField__boxPassword__nJPYy .MuiInputBase-root
+  ) {
+  width: 100%;
+}
+:global(
+    .MerchantRegistration_inputField__boxPassword__nJPYy
+      > .MuiInputBase-root
+      > .MuiInputBase-input
+  ) {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-size: 1.1vw;
+  font-weight: 500;
+  /* margin-left: 10px !important; */
+}
+:global(
+    .MerchantRegistration_inputField__boxPassword__nJPYy
+      > .MuiInputBase-root
+      > .MuiInputBase-input
+  ) {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.1vw;
+  line-height: 1.7vw;
+  padding-left: 0.4vw;
+}
+:global(
+    .MerchantRegistration_inputField__boxPassword__nJPYy
+      > .MuiInputBase-root
+      > .MuiInputBase-input::placeholder
+  ) {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.1vw;
+  line-height: 1.7vw;
+  color: #949494;
+}
+
+:global(
+    .MerchantRegistration_inputField__boxPassword__nJPYy
+      .MuiInput-underline:before
+  ) {
+  border: none;
+}
+:global(
+    .MerchantRegistration_inputField__boxPassword__nJPYy
+      .MuiInput-underline:after
+  ) {
+  border: none;
+}
+:global(
+    .MerchantRegistration_inputField__boxPassword__nJPYy
+      .MuiInput-underline:hover:not(.Mui-disabled):before
+  ) {
+  border: none;
+}
+:global(.MerchantRegistration_inputField__boxPassword__nJPYy .MuiSvgIcon-root) {
+  width: 1.8vw;
+  height: 1.8vw;
+}
+
+:global(.css-1e6y48t-MuiButtonBase-root-MuiButton-root > p) {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  color: #40c1af;
+}
+:global(.css-1e6y48t-MuiButtonBase-root-MuiButton-root:hover) {
+  background-color: transparent;
+}
+:global(
+    .MerchantRegistration_inputField__boxPassword__nJPYy
+      > .MuiInputBase-root
+      > .MuiInputAdornment-positionEnd
+      > .MuiIconButton-root
+  ) {
+  padding: 0px;
+}
+
+.vatInfoMessage {
+  text-transform: none;
+  font-weight: 400 !important;
+  font-size: 1vw;
+  position: relative;
+  top: 0.3vw;
+  color: #fc8730;
+  padding-bottom: 0.5vw;
+}
+.vatInfoMessageLink {
+  text-transform: none;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 1vw;
+  color: #fc8730;
+  text-decoration: underline;
+}
+
+/* .hidePassword {
+  fill: none;
+  position: absolute;
+  right: 60%;
+}
+.showPassword {
+  fill: none;
+  position: absolute;
+  right: 60%;
+} */
+
+.loginPageEye {
+  position: absolute;
+  right: 60%;
+}
+.registerPageEye {
+  /* position: absolute;
+  right: 1vw;
+  z-index: 1; */
+}
+
+@media only screen and (max-width: 768px) {
+  .registrationBoxes__top {
+    flex-direction: column;
+    gap: 0;
+  }
+  .userProfile__logo {
+    height: 12vw;
+    width: 12vw;
+  }
+  .uploadPopup {
+    width: 7vw;
+    height: 7vw;
+    top: -4vw;
+    left: -4vw;
+  }
+  .userprofile1 {
+    height: 100%;
+    width: 100%;
+  }
+  .userprofile2 {
+    height: 40%;
+    top: -3.5vw;
+    left: 01.1vw;
+  }
+  .userProfile__logo > p {
+    font-size: 3vw;
+    line-height: 3vw;
+  }
+  .userProfile__name {
+    padding: 3vw;
+  }
+  .userProfile__name > p {
+    font-size: 4vw;
+    line-height: 4vw;
+    margin-top: 3vw;
+  }
+  .userProfile__name > h3 {
+    font-size: 6vw;
+  }
+  .userProfile__button {
+    width: 20vw;
+    height: 4vw;
+    margin-top: 11.5vw;
+    font-size: 2vw;
+  }
+  .userProfile__buttonChef {
+    width: 20vw;
+    height: 4vw;
+    font-size: 2vw !important;
+    margin-top: 4vw;
+  }
+  .userProfile__message {
+    margin-top: 2vw;
+    font-size: 3vw;
+  }
+
+  .chefuserProfile__message {
+    font-size: 3.5vw;
+    text-align: center;
+    color: #40c1af;
+    border-bottom: 0.2vw solid #40c1af;
+    margin: 0vw 20vw 3vw !important;
+  }
+  .chefInformation__header {
+    justify-content: center;
+  }
+  .userProfile__buttonGreen {
+    width: 15vw;
+    height: 4vw;
+    font-size: 2vw;
+    margin-top: 9.5vw;
+    border-radius: 2vw;
+  }
+  .registrationBoxes {
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+  }
+  .registrationBox {
+    width: 80vw;
+    margin-top: 6px;
+  }
+
+  .registrationBoxTitle {
+    height: 7vw;
+  }
+  .registrationBoxTitle > p {
+    font-size: 4vw;
+  }
+  .formInputfields {
+    padding: 2vw;
+    gap: 2vw;
+  }
+  .inputField__box,
+  .inputField__boxDual {
+    height: 6vw;
+    justify-content: stretch;
+    width: 100%;
+  }
+  .inputField__box > label,
+  .inputField__boxDual > label {
+    font-size: 2.5vw;
+    width: fit-content;
+    padding: 0 2vw;
+  }
+
+  /* chef input */
+/*   
+  .inputField__box .inputField__boxDual :global(.form-control){
+    border: none !important;
+    background-color: transparent !important;
+  } */
+
+  .inputField__box > input,
+  .inputField__boxDual > input,
+  .inputField__boxDual > select {
+    font-size: 2.5vw;
+    width: 100%;
+  }
+  .inputField__box > input::placeholder,
+  .inputField__boxDual > input::placeholder {
+    font-size: 2.5vw;
+  }
+
+  /* .merchantRegisterPage__phoneImg,
+  .chefRegisterPage__phoneImg,
+  .chefDetailsRegisterPage__phoneImg {
+    display: none;
+  } */
+
+  .regisrationRight__outer {
+    top: 100%;
+  }
+
+  .documentsIcons__container {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: left;
+    
+  }
+  .documentsIcons,
+  .orangeEllipse {
+    padding: 1vw;
+    height: 22vw;
+    width: 22vw;
+    margin: 8px 12px 7px 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .merchantDocuments__img,
+  .chefdocuments__img {
+    width: 4vw;
+  }
+  .documentsIcons__btn svg {
+    position: relative;
+    height: 10vw;
+    left: -0.5vw;
+  }
+  .documentsIcons__btn > p,
+  .chefdocumentsIcons__btn p {
+    font-size: 8px;
+    line-height: 2.3vw;
+  }
+  .documentsIcons__btn > span,
+  .chefdocumentsIcons__btn > span {
+    font-size: 1.8vw;
+    line-height: 1.6vw;
+  }
+  .imageMenu {
+    width: 13vw;
+    top: 5vw;
+    left: 5vw;
+  }
+
+  .kitchenItems__btn,
+  .kitchenItems__btnGreen {
+    height: 11vw;
+    width: 11vw;
+  }
+  .kitchenItems__item svg {
+    width: 8vw;
+    height: 8vw;
+    left: 0.5vw;
+  }
+  .kitchenItems__item > p {
+    font-size: 3vw;
+  }
+  .registrationBoxitems__msgFacilities,
+  .registrationBoxitems__msg,
+  .chefDetailsDocuments {
+    font-size: 3vw;
+  }
+  .merchantDocuments {
+    width: 80vw;
+    margin-top: 6px;
+  }
+  .chefBox_terms {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .registrationBox__terms {
+    margin-bottom: 2vw;
+  }
+  .registrationBox__terms > img,
+  .chefBox_terms > img {
+    width: 2.5vw;
+  }
+  .registrationBox__terms > p,
+  .chefBox_terms > p {
+    font-size: 2.2vw;
+    text-align: start;
+    padding-left: 7px;
+  }
+  .registrationBoxitems__msg2,
+  .kitchenItems__qr1,
+  .kitchenItems__qr2,
+  .kitchenItems__qr {
+    font-size: 2.5vw;
+  }
+  .registrationBoxitems__link {
+    font-size: 2.5vw;
+    font-weight: 500;
+  }
+  .changePickup__container {
+    bottom: 0.2vw;
+    margin-bottom: 3px;
+  }
+  .changePickup {
+    font-size: 2vw;
+  }
+  .instagramIcon {
+    height: 3vw;
+  }
+  .infoLogo {
+    width: 3vw;
+    height: 3vw;
+  }
+  .chefFsa__rating {
+    width: 68%;
+    height: 8vw;
+    margin-top: 32px;
+  }
+  .chefFsa__rating > p {
+    font-size: 2vw;
+    padding-left: 2vw;
+  }
+
+  .chefFsa__rating > input::placeholder,
+  .chefFsa__rating > input,
+  .specialBadge {
+    font-size: 2vw;
+    width: 100%;
+    margin-left: 4vw;
+  }
+  .submitButton {
+    width: 60vw;
+    height: 9vw;
+    margin-top: 1.5vw;
+    font-size: 4vw;
+    border-radius: 8px;
+  }
+  .registrationBox__rightFirst {
+    flex-direction: column;
+  }
+  .registrationBox__map {
+    flex-direction: row;
+    /* justify-content: space-between; */
+    width: 100%;
+    gap: 6vw;
+    margin-bottom: 2vw;
+  }
+  .mapImage {
+    width: 35vw;
+    height: 40vw;
+    padding: 0px;
+  }
+  .registrationBox__mapBox {
+    width: 35vw;
+    height: 40vw;
+  }
+  .streetView__image {
+    margin-bottom: 4vw;
+  }
+  .streetView__image,
+  .parkingInstructions {
+    padding: 1vw;
+    width: 100%;
+    height: 45%;
+  }
+  .streetView__image > h6,
+  .parkingInstructions > h6 {
+    font-size: 2vw;
+  }
+  .streetView__msg > p {
+    font-size: 2vw;
+    width: 65%;
+  }
+  .parkingInstructions > textarea,
+  .parkingInstructions > textarea::placeholder {
+    font-size: 2vw;
+  }
+  .streetView__msgImg {
+    height: 10vw !important;
+    width: 10vw !important;
+  }
+  .streetView__msgImg svg {
+    height: 8vw !important;
+    width: 8vw !important;
+  }
+  .pinMapButton {
+    left: 15vw;
+    top: 2vw;
+  }
+  .registrationTitle__usernameChef {
+    font-size: 5vw;
+    margin-top: 2vw;
+  }
+  .largerBoxField {
+    width: 100%;
+  }
+  .addressWrapper,
+  .pickupWrapper {
+    width: 60%;
+    height: 4.5vw;
+  }
+  .addressWrapper > .option {
+    height: 100%;
+  }
+  .pickupWrapper > .option {
+    width: 50%;
+    height: 100%;
+  }
+  .addressWrapper > .option > span,
+  .pickupWrapper > .option > span {
+    font-size: 2.5vw !important;
+  }
+  .userProfile__name {
+    padding: 2vw;
+  }
+  .userProfile__name > p {
+    font-size: 3.5vw;
+  }
+  .userProfile__name > h3 {
+    font-size: 4.5vw;
+    width: max-content;
+  }
+  .userProfile__button {
+    width: 10vw;
+    height: 3vw;
+    margin-top: 10.5vw;
+    font-size: 2vw;
+  }
+
+  .chefInformationTitle {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+  }
+  :global(.MuiSvgIcon-root) {
+    width: 3.5vw !important;
+    height: 3.5vw !important;
+  }
+  .registrationBox__rightFirst {
+    width: 100%;
+    padding: 0.5vw;
+  }
+  .accountSecurity__container {
+    align-items: center;
+  }
+  .accountSecurity {
+    font-size: 2.5vw;
+    line-height: 2vw;
+  }
+  .collectionContainer {
+    position: relative;
+  }
+
+  .documentsIcons__green {
+    height: 22vw;
+    width: 22vw;
+    padding: 1vw;
+    /* margin-top: 6px; */
+    margin: 8px 12px 7px 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .chefDocuments__img {
+    height: 6vw;
+  }
+  .active {
+    top: 0vw !important;
+    z-index: 0 !important;
+    left: 0vw !important;
+  }
+
+  .prochefDetails {
+    font-size: 2vw;
+  }
+  .mobileCheckbox > p {
+    font-size: 2.5vw;
+  }
+  .progressBar {
+    height: 9vw;
+    width: 9vw;
+    top: -17vw;
+  }
+  :global(
+      .MerchantRegistration_inputField__box__gyqYa
+        > .react-tel-input
+        > .form-control
+    ) {
+    font-size: 2.5vw;
+    line-height: 3vw;
+  }
+  :global(
+      .MerchantRegistration_inputField__boxPassword__nJPYy
+        > .MuiInputBase-root
+        > .MuiInputBase-input
+    ) {
+    font-size: 2.5vw;
+  }
+  :global(span > .MuiSwitch-root) {
+    height: 2.6vw;
+    width: 5.4vw;
+  }
+  :global(span > .MuiSwitch-root > .MuiButtonBase-root) {
+    padding: 0.2vw;
+  }
+  :global(span > .MuiSwitch-root > .MuiButtonBase-root > .MuiSwitch-thumb) {
+    height: 2.2vw;
+    width: 2.6vw;
+  }
+  :global(span > .MuiSwitch-root > .Mui-checked) {
+    transform: translateX(2.4vw);
+  }
+  .pickupIcons {
+    height: 3vw;
+    width: 3vw;
+  }
+
+  .registrationBoxitems__msgGreen {
+    font-size: 3vw;
+  }
+
+  .registerFsa__merchant {
+    font-size: 3vw;
+    bottom: -9vw;
+    right: -60px;
+  }
+  .registerFsa__chef {
+    font-size: 2vw;
+    bottom: -3vw;
+  }
+  :global(
+      .MerchantRegistration_inputField__boxPassword__nJPYy
+        > .MuiInputBase-root
+        > .MuiInputBase-input::placeholder
+    ) {
+    font-size: 2.5vw;
+  }
+  .vatInfoMessage {
+    margin-left: 2vw;
+    font-size: 2.3vw;
+  }
+  .vatInfoMessageLink {
+    font-size: 2.3vw;
+  }
+  .changePassword {
+    top: 0.6vw;
+    right: 8vw;
+    font-size: 2.5vw;
+  }
+
+  .docmobileview{
+    margin-top: 13px;
+    /* left: -25px; */
+  }
+  .docmobileview2{
+    margin-top: 13px;
+    /* left: -71px; */
+  }
+
+  .kitchenItems {
+   
+    padding: 13px 2vw;
+    gap: 01vw;
+  }
+
+  .floorNumber {
+    margin-left: 3vw;
+    padding: 0.3vw;
+    width: 20vw !important;
+    border: 0.05vw solid #bdbdbd !important;
+    border-radius: 0.6vw;
+  }
+  .kitchenItems__btn {
+    height: 12vw;
+    width: 12vw;
+    background-color: #fc8730;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 7px;
+  }
+
+}
+
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+
+  .registrationBox_merchantDetails {
+    width: 47.4vw;
+  }
+.tabview{
+  width: 95vw !important;
+}
+  .registrationBox_merchantDetailes {
+    width: 95vw !important;
+  }
+  .merchantDocuments {
+    width: 95vw !important;
+  }
+  .registrationBox_restuarantDetails {
+    width: 43.3vw;
+  }
+  .documentsIcons__container {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+  }
+  .documentsIcons,
+  .orangeEllipse {
+    padding: 1vw;
+    height: 14.6vw;
+    width: 14.6vw;
+    margin: 8px 12px 7px 4px;
+    display: flex;align-items: center;
+    justify-content: center;
+  }
+
+  .regisrationRight__outer {
+    position: absolute;
+    right: 5vw;
+    top: 180vw;
+    overflow: hidden;
+    display: none !important;
+  }
+
+  
+.documentsIcons__green {
+  position: relative;
+  height: 14.6vw;
+  width: 14.6vw;
+  background-color: #40c1af;
+  border-radius: 50%;
+  padding: 0.4vw;
+  box-shadow: 0px 0.3.5vw 0.3.5vw #cfcfcf;
+  font-size: 1vw;
+  display: flex;align-items: center;
+  justify-content: center;
+  margin: 8px 12px 7px 4px;
+}
+
+.documentsIcons__btn > p {
+  font-weight: 600;
+  font-size: 1.4vw;
+  line-height: 2.5vw;
+  color: #ffffff;
+}
+
+.kitchenItems {
+  width: 80%;
+}
+.imageMenu {
+  position: absolute;
+  width: 9.3vw;
+  top: 2.5vw;
+  left: 4.4vw;
+}
+.registrationBox__terms > p {
+  margin-left: 0.85vw;
+  font-weight: 400;
+  font-size: 1.4vw;
+  color: #bdbdbd;
+  position: relative;
+  text-align: start;
+}
+.streetView__image,
+.parkingInstructions {
+  margin-top: 0.5vw;
+  width: 15vw;
+  height: 5.5vw;
+  border: 0.05vw solid #cfcfcf;
+  padding: 0.2vw;
+  border-radius: 0.7vw;
+}
+.kitchenItems__btn {
+  height: 10vw;
+  width: 10vw;
+  background-color: #fc8730;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+}
+.kitchenItems__btnGreen {
+  height: 10vw;
+  width: 10vw;
+  background-color: #40c1af;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+  
+.chefBox_terms {
+  width: 89vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+}
+
+/* 
+/ laptop /
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+} */

@@ -1,0 +1,445 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.loginContainer {
+  /* height: 820px; */
+
+  position: relative;
+}
+.loginRight__inner {
+  position: relative;
+  top: -3.5vw;
+  padding-left: 9.35vw;
+}
+.loginSection {
+}
+.loginForm {
+  font-family: "Open Sans";
+  font-style: normal;
+  position: absolute;
+  width: 42vw;
+  right: 9vw;
+  top: 5.5vw;
+}
+.loginForm__title {
+  margin-bottom: 2vw;
+}
+.loginForm__title > h1 {
+  font-weight: 700;
+  font-size: 2.28vw;
+  color: #182135;
+  margin-bottom: 0.5vw;
+}
+.loginForm__title > p {
+  width: 100%;
+  font-weight: 400;
+  font-size: 1.5vw;
+  color: #626264;
+}
+.loginForm__row {
+  display: flex;
+  height: 5.1vw;
+  margin-bottom: 4vw;
+  position: relative;
+}
+.emailCheck {
+  position: absolute;
+  right: 1vw;
+  top: 1.5vw;
+}
+.loginIcon {
+  height: 4.57vw;
+  width: 4.57vw;
+}
+.loginForm__rowInput {
+  margin-left: 1.7vw;
+}
+.loginForm__rowInput > h6 {
+  font-weight: 700;
+  font-size: 0.85vw;
+  line-height: 1.7vw;
+  letter-spacing: 0.1vw;
+  text-transform: uppercase;
+  color: #182135;
+  width: 40vw;
+}
+.emailErrorMsg {
+  position: absolute;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.2vw;
+  line-height: 1.2vw;
+  color: #f0232d;
+  top: 4.5vw;
+  left: 6.2vw;
+}
+.emailErrorMsg > span {
+  text-decoration: underline;
+}
+
+.inputArea {
+  font-family: "Open Sans";
+  font-style: normal;
+  width: 35vw;
+  height: 2.4vw;
+  border-style: none;
+  border-bottom: 0.2vw solid rgba(163, 163, 164, 0.16);
+  font-weight: 400;
+  font-size: 1.45vw;
+  color: #626264;
+  padding-bottom: 0.6vw;
+}
+.inputArea::placeholder {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-size: 1.2vw;
+  color: #e6e5e5 !important;
+}
+.inputArea:focus {
+  outline: none;
+}
+.form-control:focus {
+  box-shadow: none !important;
+  border-style: none !important;
+}
+
+.inputArea__password {
+  width: 35vw;
+  border-bottom: 0.2vw solid rgba(163, 163, 164, 0.16);
+}
+.phoneInput__area {
+  width: 35vw !important;
+  border-bottom: 0.2vw solid rgba(163, 163, 164, 0.16) !important;
+}
+
+.buttonComponent {
+  width: 41.14vw;
+  height: 4.57vw;
+  border-radius: 0.85vw;
+  border-style: none;
+  background-color: #40c1af;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.45vw;
+  color: #f7fafc;
+  cursor: pointer;
+  margin-top: 1vw;
+}
+.loginSwitch__button {
+  width: 41.14vw;
+  text-align: center;
+  margin-top: 3.65vw;
+}
+.loginSwitch__button > a {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  border-bottom: 0.15vw solid #40c1af;
+  color: #40c1af;
+  font-style: normal;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 1.28vw;
+  line-height: 1.1vw;
+}
+.forgotPassword__label {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.3vw;
+  color: #626264;
+  cursor: pointer;
+  margin-top: 1.4vw;
+  width: 43vw;
+}
+.registerHyperlink {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.3vw;
+  color: #626264;
+  margin-top: 1.4vw;
+  width: 43vw;
+}
+.rectangleIcon {
+  width: 37vw;
+  height: 25.5vw;
+}
+.rectangleIcon {
+  position: absolute;
+  bottom: -1vw;
+}
+.rectangleIcon__img {
+  width: 100%;
+}
+:global(
+    .MerchantLogin_phoneInput__area__M9V8C > .react-tel-input > .form-control
+  ) {
+  width: 100%;
+  border: none;
+  border-radius: 0px;
+  color: #626264;
+  font-size: 1.45vw;
+  font-weight: 400;
+  line-height: 1.45vw;
+  background: none;
+  font-family: "Open Sans";
+  font-style: normal;
+}
+
+
+.phoneInput__area :global(.form-control) {
+  width: 35vw !important;
+  height: 35px;
+  border: none;
+}
+
+
+:global(
+    .MerchantLogin_phoneInput__area__M9V8C
+      > .react-tel-input
+      > .form-control::placeholder
+  ) {
+  font-size: 1.2vw;
+  color: #e6e5e5;
+  font-family: "Open Sans";
+  font-style: normal;
+}
+:global(
+    .MerchantLogin_phoneInput__area__M9V8C > .react-tel-input > .flag-dropdown
+  ) {
+  border: none;
+  width: 4vw;
+  background: none;
+}
+:global(
+    .MerchantLogin_phoneInput__area__M9V8C
+      > .react-tel-input
+      > .flag-dropdown
+      > .selected-flag
+  ) {
+  border-style: none;
+}
+
+.phoneInput__area :global(.flag-dropdown){
+background-color: transparent;
+border-radius: 50%;
+border: none;
+}
+
+:global(
+    .MerchantLogin_phoneInput__area__M9V8C
+      > .react-tel-input
+      > .flag-dropdown
+      > .selected-flag
+      > .flag
+  ) {
+  transform: scale(150%);
+  border-radius: 70% 70% 70% 70%;
+}
+:global(
+    .MerchantLogin_phoneInput__area__M9V8C
+      > .react-tel-input
+      > .form-control:focus
+  ) {
+  box-shadow: none !important;
+}
+:global(.MerchantLogin_inputArea__password__MqAFY .MuiInputBase-root) {
+  width: 100% !important;
+}
+:global(
+    .MerchantLogin_inputArea__password__MqAFY
+      .MuiInput-underline:hover:not(.Mui-disabled):before
+  ) {
+  border: none;
+}
+:global(.MerchantLogin_inputArea__password__MqAFY .MuiInputBase-input) {
+  font-family: "Open Sans";
+  font-style: normal;
+  padding: 0px;
+  height: 2.6vw;
+  font-size: 1.45vw;
+  font-weight: 400;
+  color: #626264;
+}
+:global(
+    .MerchantLogin_inputArea__password__MqAFY .MuiInputBase-input::placeholder
+  ) {
+  font-size: 1.2vw;
+  font-family: "Open Sans";
+  font-style: normal;
+  color: #c5c4c4;
+}
+
+:global(.MerchantLogin_inputArea__password__MqAFY .MuiInput-underline:before) {
+  border: none;
+}
+:global(.MerchantLogin_inputArea__password__MqAFY .MuiInput-underline:after) {
+  border: none;
+}
+
+:global(form > .MuiButtonBase-root > p) {
+  text-transform: none;
+  background-color: transparent;
+  padding: 0px;
+  min-width: fit-content;
+  transition: none;
+  line-height: 1;
+  color: #626264;
+}
+:global(
+    .MerchantLogin_inputArea__password__MqAFY
+      .MuiInputBase-root
+      .MuiInputAdornment-root
+      .MuiButtonBase-root
+      .MuiSvgIcon-root
+  ) {
+  width: 2vw;
+  height: 2vw;
+}
+
+@media only screen and (max-width: 767px) {
+  .loginContainer {
+    height: 100vh;
+    max-height: 500px;
+  }
+  .mobileContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .loginRight__inner {
+    top: 100vw;
+  }
+  .rectangleIcon {
+    display: none;
+  }
+  .loginSection {
+    width: 100vw;
+  }
+  .loginForm {
+    top: 5vh;
+    width: 80%;
+  }
+  .loginForm__title {
+    width: 100%;
+
+    margin-bottom: 5vw !important;
+  }
+  .loginForm__title > h1 {
+    font-size: 6vw;
+    width: 100%;
+  }
+  .loginForm__title > p {
+    font-size: 3vw;
+    width: 90%;
+  }
+  .loginForm__row {
+    width: 100%;
+    height: 10vw;
+  }
+  .loginIcon {
+    width: 10vw;
+    height: 10vw;
+  }
+  .loginForm__rowInput > h6 {
+    font-size: 2vw;
+    padding-bottom: 4px;
+  }
+  .inputArea {
+    width: 60vw;
+    font-size: 3vw;
+    height: 5vw;
+    padding-bottom: 1vw;
+    margin-bottom: 1vw;
+    background: none;
+  }
+  .loginForm__rowInput {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+  .inputArea::placeholder {
+    font-size: 2.5vw;
+  }
+  .emailErrorMsg {
+    font-size: 2vw;
+    top: 10vw;
+    margin-left: 5vw;
+  }
+  .emailCheck > svg {
+    font-size: 6vw;
+    position: relative;
+    left: -8vw;
+  }
+  .inputArea__password {
+    width: 60vw;
+    height: 5vw;
+    font-size: 3vw;
+  }
+  .phoneInput__area {
+    width: 100% !important;
+  }
+  .phoneInput__area :global(.form-control) {
+    width: 60vw !important;
+    height: 28px;
+  border-bottom: 0.2vw solid rgba(163, 163, 164, 0.16) !important;
+  }
+  .phoneInput__area {
+    /* width: 35vw !important; */
+    border-bottom: none !important;
+  }
+  .buttonComponent {
+    width: 90%;
+    height: 7vw;
+    font-size: 3vw;
+  }
+  .forgotPassword__label {
+    width: 90%;
+    font-size: 3vw;
+    text-align: center;
+  }
+  .loginSwitch__button {
+    width: 90%;
+  }
+  .loginSwitch__button > a {
+    font-size: 3vw;
+  }
+  .registerHyperlink {
+    font-size: 3vw;
+  }
+  :global(.MerchantLogin_inputArea__password__MqAFY .MuiInputBase-input) {
+    padding: 0px;
+    height: 5vw;
+    font-size: 3vw;
+    font-weight: 400;
+    color: #626264;
+  }
+  :global(
+      .MerchantLogin_inputArea__password__MqAFY .MuiInputBase-input::placeholder
+    ) {
+    font-size: 2.5vw;
+  }
+
+  :global(
+      .MerchantLogin_phoneInput__area__M9V8C > .react-tel-input > .form-control
+    ) {
+    font-size: 3vw;
+    line-height: 3vw;
+  }
+  :global(
+      .MerchantLogin_phoneInput__area__M9V8C
+        > .react-tel-input
+        > .form-control::placeholder
+    ) {
+    font-size: 2.5vw;
+    width: 100%;
+  } 
+
+  
+ 
+}

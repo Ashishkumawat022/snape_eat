@@ -1,0 +1,236 @@
+.informationLogo {
+  width: 25px;
+}
+
+:global(div > .MuiDialog-container > .MuiPaper-root) {
+  max-width: 90vw;
+  min-width: fit-content;
+  background: transparent;
+  border-radius: 1vw;
+  border: none;
+  box-shadow: none;
+}
+
+:global(div > .MuiPaper-root > .MuiDialogContent-root::-webkit-scrollbar) {
+  display: none;
+}
+:global(div > .MuiPaper-root > .MuiDialogContent-root) {
+  overflow-y: scroll;
+  background: none;
+  padding: 0px;
+  border-radius: 10px;
+  max-width: 90vw;
+}
+:global(div > .MuiPaper-root > .MuiDialogContent-root > div > div) {
+  /* margin-bottom: 0px !important; */
+}
+
+.identityProofImage__container {
+  overflow-x: scroll !important;
+}
+
+.identityProofImage {
+  height: 600px;
+}
+
+:global(div > .MuiButtonBase-root) {
+  padding: 0px;
+  background-color: transparent;
+  box-shadow: none;
+  min-width: min-content;
+}
+:global(div > .MuiButtonBase-root:hover) {
+  background: none !important;
+  box-shadow: none !important;
+}
+
+:global(div.MuiPopover-root > .MuiPaper-root) {
+  box-shadow: none;
+  background-color: transparent;
+  overflow-y: hidden;
+}
+.otpContainer {
+  background-color: #fff;
+  width: 24.78vw;
+  min-height: 15.5vw;
+  height: 100%;
+  text-align: center;
+  border-radius: 1.45vw;
+}
+.otpContainer > div {
+  display: flex;
+  justify-content: space-around;
+  height: 5.42vw;
+  padding: 0.7vw;
+}
+.otpContainer > div > div {
+  height: 4.28vw;
+  width: 4.28vw;
+  border-radius: 3vw;
+  border: 1px solid #cfcfcf;
+  justify-content: center;
+  background-color: none;
+}
+
+.otpTitle {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  padding: 1.8vw 0 0.5vw;
+  font-weight: 500;
+  font-size: 1.45vw;
+  color: #424242;
+}
+.resendOtp {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5vw;
+  line-height: 1.2vw;
+  margin-top: 1vw;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #40c1af;
+  cursor: pointer;
+}
+.otpMessage {
+  padding: 0.7vw 0;
+  font-weight: 400 !important;
+  font-size: 1.28vw;
+  line-height: 1.2vw;
+  color: #424242;
+  text-align: center;
+}
+.infoLogo {
+  display: inline-block;
+  cursor: pointer;
+  height: 1.7vw;
+  width: 1.7vw;
+}
+
+.errorMessage {
+  color: #f73333bc;
+  font-weight: 500;
+  font-size: 01vw;
+}
+.passwordBox__container {
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+
+.loginPageEye {
+  position: absolute;
+  right: 13%;
+}
+.registerPageEye {
+  /* position: absolute;
+  right: 1vw;
+  z-index: 1; */
+}
+.inputArea {
+  font-family: "Open Sans";
+  font-style: normal;
+  width: 35vw;
+  height: 2.4vw;
+  border-style: none;
+  border-bottom: 0.2vw solid rgba(163, 163, 164, 0.16);
+  font-weight: 400;
+  font-size: 1.45vw;
+  color: #626264;
+  padding-bottom: 0.6vw;
+}
+.inputArea::placeholder {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-size: 1.2vw;
+  color: #e6e5e5 !important;
+}
+.registerInputArea {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.1vw;
+  border-style: none;
+  font-weight: 400;
+  padding-left: 0.7vw;
+  color: #1c1c1c;
+}
+.registerInputArea::placeholder {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 350;
+  color: #cfcfcf;
+  font-size: 1.1vw;
+}
+.registerPageEye > svg {
+  width: 2vw;
+  position: relative;
+  left: 9.5vw;
+}
+.loginPageEye > svg {
+  height: 2vw;
+  width: 3vw;
+}
+@media only screen and (max-width: 768px) {
+  .infoLogo {
+    width: 4vw;
+    height: 3vw;
+  }
+  .registerInputArea {
+    font-size: 2.5vw;
+  }
+  .inputArea {
+    width: 60vw;
+    font-size: 3vw;
+    height: 5vw;
+    padding-bottom: 1vw;
+    margin-bottom: 1vw;
+    background: none;
+  }
+  .inputArea::placeholder {
+    font-size: 2.5vw;
+  }
+  .registerInputArea::placeholder {
+    font-size: 2.5vw;
+  }
+  .registerPageEye > svg {
+    width: 5vw;
+    height: 3vw;
+    left: 21.5vw;
+  }
+
+  .loginPageEye > svg {
+    width: 6vw;
+    height: 4vw;
+    margin-left: 100%;
+  }
+  .otpContainer {
+    width: 200px;
+  }
+  .otpTitle {
+    font-size: 13px;
+  }
+  .errorMessage {
+    padding-top: 5px;
+    font-size: 8px;
+  }
+  .resendOtp {
+    font-size: 13px;
+  }
+  .otpMessage {
+    padding: 10px;
+    display: block;
+    font-size: 10px;
+  }
+  .otpContainer > div {
+    margin: 10px 0px;
+  }
+  .otpContainer > div > div {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid #cfcfcf;
+    justify-content: center;
+    background-color: none;
+  }
+}
